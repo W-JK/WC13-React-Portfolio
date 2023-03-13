@@ -1,7 +1,8 @@
 
-import React from 'react';
+import React from "react";
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import Home     from './pages/Home/Home'
 import NavBar   from './Components/NavBar/NavBar';
 import Header   from './Components/Header/Header';
@@ -15,7 +16,7 @@ function App() {
         <Router>
             <div>
 
-                
+                <Header/>
                 
                 <NavBar/>
 
@@ -28,7 +29,7 @@ function App() {
 
                 </Routes>
 
-                
+                <Footer/>
                 
             </div>
         </Router>
