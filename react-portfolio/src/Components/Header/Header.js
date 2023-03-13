@@ -1,7 +1,7 @@
 import './header.css';
 
  const Header = () => {
-    return <> Hello Word </>
+    return <> Header </>
 }
 
 export default Header;
