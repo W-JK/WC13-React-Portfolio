@@ -1,0 +1,36 @@
+.customNAV{
+    width: 100%;
+    background-color: rgb(5, 134, 247);
+    background-color: transparent !important; 
+    background-size: cover;
+
+    display: inline-block;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-size: 3rem !important;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+    
+    z-index: 10;
+         
+  }
+
+
+
+.portrait {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 150px;
+    height: auto;
+    border-radius: 15%;
+    text-decoration: none !important;
+    
+    
+}
+
+.navCTA {
+    font-size: 0.9rem;
+    width: 20%;
+    
+  }
